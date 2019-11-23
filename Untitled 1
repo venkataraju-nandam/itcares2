@@ -1,0 +1,87 @@
+Eclipse_SpringBoot_Project_Setup_Issues
+----------------------- 19-Nov-2019 after setup done successfully ------------
+Eclipse -> Windows -> Preferences –
+1.	Windows -> Preferences – General -> Workspace (Build automatically, show workspace name…)
+2.	Windows -> Preferences –Java – Installed JREs – ADD (C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08)
+3.	Windows -> Preferences –Java –Build Path – Class path Variables – M2_Repo (.m2/repository path…. Not clear what to do here?)
+	Select Window > Preferences. Select Java > Build Path > Classpath Variables. Click on the new button > defined a new M2_REPO variable and point it to your local Maven repository.
+4.	Windows -> Preferences –Maven – (uncheck offline…) 
+a.	Archetypes – Add Remote Catalog ()
+b.	Catalog File: http://repo1.maven.org/maven2/archetype-catalog.xml
+c.	Description: maven catalog
+5.	Windows -> Preferences –Maven – Installations – ADD
+a.	Maven 
+b.	Java
+6.	Windows -> Preferences –Maven – User Settings  
+a.	User Settings: 	.m2/settings.xml (set to maven folder -?)
+b.	Reindex: 	C:\Users\venkata.nandam\.m2\repository
+Maven -> settings.xml 
+
+(D:\SOFTWARES\eclipse-jee-oxygen\Win\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml)
+7.	If required change the proxy settings   (host, port, …)
+8.	If required change the mirror to download repositories from maven
+Eclipse -> eclipse.ini 
+(D:\SOFTWARES\eclipse-jee-oxygen\eclipse\eclipse.ini)
+9.	Updated Permgen related  
+-Xms512m
+-Xmx6144m
+Tomcat -> server.xml 
+(D:\SOFTWARES\eclipse-jee-oxygen\apache-tomcat-9.0.10\apache-tomcat-9.0.10\conf\server.xml)
+10.	Update port from 8080 to xxxx
+<Connector port="8181" protocol="HTTP/1.1"   connectionTimeout="20000"   redirectPort="8443" />
+11.	GIT HUB Repository
+https://github.com/venkataraju-nandam
+
+https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+---------------------------
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git init
+Reinitialized existing Git repository in D:/WorkSpace2/itcares/.git/
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git add .
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git commit "initial commit"
+error: pathspec 'initial commit' did not match any file(s) known to git
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git commit -m "Initial commit"
+On branch master
+Your branch is up to date with 'itcares/master'.
+
+nothing to commit, working tree clean
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git remote add https://github.com/venkataraju-nandam/itcares.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Venkata.Nandam@HYDPCM283953L MINGW64 /d/WorkSpace2/itcares (master)
+
