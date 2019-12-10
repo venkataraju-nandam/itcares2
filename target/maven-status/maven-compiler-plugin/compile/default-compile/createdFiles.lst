@@ -1,3 +1,10 @@
+com\org\app\poc\itcares\service\ICityService.class
+com\org\app\poc\itcares\Repository\CityRepository.class
 com\org\app\poc\itcares\bean\Greeting.class
 com\org\app\poc\itcares\resources\RestService.class
 com\org\app\poc\itcares\MainApp.class
+com\org\app\poc\itcares\controller\CityRunner.class
+com\org\app\poc\itcares\bean\AdministratorEntity.class
+com\org\app\poc\itcares\Repository\AdminReposotiry.class
+com\org\app\poc\itcares\bean\City.class
+com\org\app\poc\itcares\service\CityService.class

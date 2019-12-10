@@ -1,3 +1,10 @@
 D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\MainApp.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\bean\City.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\service\ICityService.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\bean\AdministratorEntity.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\Repository\AdminReposotiry.java
 D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\bean\Greeting.java
 D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\resources\RestService.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\service\CityService.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\Repository\CityRepository.java
+D:\WorkSpace2\itcares\src\main\java\com\org\app\poc\itcares\controller\CityRunner.java

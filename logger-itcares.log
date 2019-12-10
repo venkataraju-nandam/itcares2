@@ -1,0 +1,298 @@
+2019-11-27 00:10:40.252  INFO 20596 --- [main] com.org.app.poc.itcares.MainApp          : Starting MainApp on HYDPCM283953L with PID 20596 (D:\WorkSpace2\itcares\target\classes started by Venkata.Nandam in D:\WorkSpace2\itcares)
+2019-11-27 00:10:40.277  INFO 20596 --- [main] com.org.app.poc.itcares.MainApp          : No active profile set, falling back to default profiles: default
+2019-11-27 00:10:41.879  INFO 20596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-27 00:10:42.050  INFO 20596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 2 repository interfaces.
+2019-11-27 00:10:42.818  INFO 20596 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-27 00:10:44.180  INFO 20596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2019-11-27 00:10:44.196  INFO 20596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-27 00:10:44.196  INFO 20596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-27 00:10:44.452  INFO 20596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-27 00:10:44.456  INFO 20596 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4016 ms
+2019-11-27 00:10:44.588  INFO 20596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-27 00:10:44.975  INFO 20596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-27 00:10:44.991  INFO 20596 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/db_itcares'
+2019-11-27 00:10:45.404  INFO 20596 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-27 00:10:45.555  INFO 20596 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-27 00:10:45.848  INFO 20596 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-27 00:10:45.896 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@fa079f3a
+2019-11-27 00:10:45.896 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@fa079f3a
+2019-11-27 00:10:45.900 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@fa079f3a
+2019-11-27 00:10:45.900 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@ad684281
+2019-11-27 00:10:45.904 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@6657adc
+2019-11-27 00:10:45.904 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@8dfda0f2
+2019-11-27 00:10:45.908 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6b786aca
+2019-11-27 00:10:45.908 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6b786aca
+2019-11-27 00:10:45.908 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b786aca
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@ad04fc29
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@ad04fc29
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@ad04fc29
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1cac2aa5
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1cac2aa5
+2019-11-27 00:10:45.912 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1cac2aa5
+2019-11-27 00:10:45.916 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@486637c6
+2019-11-27 00:10:45.916 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@486637c6
+2019-11-27 00:10:45.916 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@486637c6
+2019-11-27 00:10:45.920 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@92b7c930
+2019-11-27 00:10:45.920 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@92b7c930
+2019-11-27 00:10:45.921 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@92b7c930
+2019-11-27 00:10:45.922 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@27ad8ecf
+2019-11-27 00:10:45.923 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@27ad8ecf
+2019-11-27 00:10:45.923 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@27ad8ecf
+2019-11-27 00:10:45.924 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@197453d2
+2019-11-27 00:10:45.925 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@197453d2
+2019-11-27 00:10:45.925 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@197453d2
+2019-11-27 00:10:45.926 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@d353ce66
+2019-11-27 00:10:45.927 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@d353ce66
+2019-11-27 00:10:45.929 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@c0301b42
+2019-11-27 00:10:45.929 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@c0301b42
+2019-11-27 00:10:45.930 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@81f87198
+2019-11-27 00:10:45.931 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@81f87198
+2019-11-27 00:10:45.933 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@8db97a7e
+2019-11-27 00:10:45.934 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@bddfb43
+2019-11-27 00:10:45.936 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@8c31cd6a
+2019-11-27 00:10:45.936 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@8c31cd6a
+2019-11-27 00:10:45.936 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@bab4be65
+2019-11-27 00:10:45.936 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@bab4be65
+2019-11-27 00:10:45.940 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@2948f0b6
+2019-11-27 00:10:45.940 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2948f0b6
+2019-11-27 00:10:45.940 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5b6863e1
+2019-11-27 00:10:45.944 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5b6863e1
+2019-11-27 00:10:45.948 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@54625b04
+2019-11-27 00:10:45.948 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@54625b04
+2019-11-27 00:10:45.952 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@e6c895d0
+2019-11-27 00:10:45.952 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@e6c895d0
+2019-11-27 00:10:45.956 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a751b288
+2019-11-27 00:10:45.956 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a751b288
+2019-11-27 00:10:45.960 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@79fad595
+2019-11-27 00:10:45.960 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@79fad595
+2019-11-27 00:10:45.964 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@a81c5d4c
+2019-11-27 00:10:45.968 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@a81c5d4c
+2019-11-27 00:10:45.968 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@9191ffe5
+2019-11-27 00:10:45.968 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@9191ffe5
+2019-11-27 00:10:45.972 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@61b816ff
+2019-11-27 00:10:45.972 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@61b816ff
+2019-11-27 00:10:45.976 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@1b7dd96e
+2019-11-27 00:10:45.976 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1b7dd96e
+2019-11-27 00:10:45.976 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1b7dd96e
+2019-11-27 00:10:45.980 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@e84e6416
+2019-11-27 00:10:45.980 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@17e9cdbd
+2019-11-27 00:10:45.980 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@17e9cdbd
+2019-11-27 00:10:45.980 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@17e9cdbd
+2019-11-27 00:10:45.984 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@76faba16
+2019-11-27 00:10:45.984 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@d755d7e1
+2019-11-27 00:10:45.988 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@d755d7e1
+2019-11-27 00:10:45.988 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@ef6916a1
+2019-11-27 00:10:45.992 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@ef6916a1
+2019-11-27 00:10:45.992 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@e3744eef
+2019-11-27 00:10:45.992 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@e3744eef
+2019-11-27 00:10:45.996 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@3200f302
+2019-11-27 00:10:45.996 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3200f302
+2019-11-27 00:10:46.000 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6afdafb6
+2019-11-27 00:10:46.000 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6afdafb6
+2019-11-27 00:10:46.004 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@cf50b56a
+2019-11-27 00:10:46.004 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@ea547f9
+2019-11-27 00:10:46.004 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@ea547f9
+2019-11-27 00:10:46.004 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@ea547f9
+2019-11-27 00:10:46.008 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@92a3c030
+2019-11-27 00:10:46.008 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@92a3c030
+2019-11-27 00:10:46.008 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@92a3c030
+2019-11-27 00:10:46.012 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@ddb6501c
+2019-11-27 00:10:46.012 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@593e76b8
+2019-11-27 00:10:46.016 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@ead08bd
+2019-11-27 00:10:46.021 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@ead08bd
+2019-11-27 00:10:46.021 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@ead08bd
+2019-11-27 00:10:46.024 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5e46c54c
+2019-11-27 00:10:46.025 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5e46c54c
+2019-11-27 00:10:46.026 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5e46c54c
+2019-11-27 00:10:46.027 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@1ef7f7a
+2019-11-27 00:10:46.029 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@cb334af4
+2019-11-27 00:10:46.034 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@5cddc3e5
+2019-11-27 00:10:46.035 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5cddc3e5
+2019-11-27 00:10:46.035 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@eab1e19b
+2019-11-27 00:10:46.040 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1ca529a4
+2019-11-27 00:10:46.040 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1ca529a4
+2019-11-27 00:10:46.044 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@6345fc65
+2019-11-27 00:10:46.044 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6345fc65
+2019-11-27 00:10:46.044 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@bca34572
+2019-11-27 00:10:46.048 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ebdc101b
+2019-11-27 00:10:46.052 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@f921f70f
+2019-11-27 00:10:46.056 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@966bbbd9
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@966bbbd9
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@8090f621
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@816cc909
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@cd3bbed8
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6f347dee
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@553dde3d
+2019-11-27 00:10:46.060 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@8ea752c4
+2019-11-27 00:10:46.064 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@62da2442
+2019-11-27 00:10:46.064 DEBUG 20596 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3de7d967
+2019-11-27 00:10:46.188  INFO 20596 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-11-27 00:10:46.336 DEBUG 20596 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@ab08f5bb] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2f987ffe]
+2019-11-27 00:10:46.875 DEBUG 20596 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@ab08f5bb] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@d7084f7d]
+2019-11-27 00:10:48.042  INFO 20596 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-27 00:10:48.058 TRACE 20596 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@d7084f7d] for TypeConfiguration
+2019-11-27 00:10:48.058  INFO 20596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-27 00:10:48.378 DEBUG 20596 --- [main] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=true]
+2019-11-27 00:10:48.390  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.394  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.542  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.686  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.737  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.757  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.765  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:48.897  WARN 20596 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-27 00:10:49.209  INFO 20596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-27 00:10:49.672  INFO 20596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2019-11-27 00:10:49.676  INFO 20596 --- [main] com.org.app.poc.itcares.MainApp          : Started MainApp in 10.498 seconds (JVM running for 11.53)
+2019-11-27 00:10:49.680  INFO 20596 --- [main] MainApp$$EnhancerBySpringCGLIB$$cbb43ccd : ********** SpringBoot Main App ***** RUN  ***** 
+2019-11-27 00:10:49.892 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [1]
+2019-11-27 00:10:49.892 DEBUG 20596 --- [main] o.h.stat.internal.StatisticsImpl         : HHH000117: HQL: select count(*) from AdministratorEntity x, time: 26ms, rows: 1
+2019-11-27 00:10:49.904  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    898707 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    12053045 nanoseconds spent preparing 1 JDBC statements;
+    1564018 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    28213 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:49.904  INFO 20596 --- [main] MainApp$$EnhancerBySpringCGLIB$$cbb43ccd :  -********** SpringBoot Main App *****  Repository Count  = 1
+2019-11-27 00:10:49.952 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [0]
+2019-11-27 00:10:49.960 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password2_0_] : [VARCHAR]) - [password]
+2019-11-27 00:10:49.960 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id3_0_] : [VARCHAR]) - [Raju]
+2019-11-27 00:10:49.968 DEBUG 20596 --- [main] o.h.stat.internal.StatisticsImpl         : HHH000117: HQL: select generatedAlias0 from AdministratorEntity as generatedAlias0, time: 16ms, rows: 1
+2019-11-27 00:10:49.972  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    22058 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    367280 nanoseconds spent preparing 1 JDBC statements;
+    1375761 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5129 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:49.980  INFO 20596 --- [main] MainApp$$EnhancerBySpringCGLIB$$cbb43ccd : ********** SpringBoot Main App *****   Entities Accessed *****
+2019-11-27 00:10:49.980  INFO 20596 --- [main] MainApp$$EnhancerBySpringCGLIB$$cbb43ccd :  ********** SpringBoot Main App *****    Entity List Retriving -  adminEntities.get(0) -> AdministrorEntity [id=Raju, firstName=password]
+2019-11-27 00:10:49.980  INFO 20596 --- [main] c.o.a.poc.itcares.controller.CityRunner  : **********  CityRunner  ***** RUN  ***** 
+2019-11-27 00:10:50.000 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2019-11-27 00:10:50.076  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    46166 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    505780 nanoseconds spent preparing 1 JDBC statements;
+    66669539 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:50.084 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2019-11-27 00:10:50.088  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    41036 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    438582 nanoseconds spent preparing 1 JDBC statements;
+    1281377 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2019-11-27 00:10:50.088  INFO 20596 --- [main] c.o.a.poc.itcares.controller.CityRunner  : **********  CityRunner  ***** RUN  ***** Optional.empty
+2019-11-27 00:10:50.092 TRACE 20596 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [24]
+2019-11-27 00:10:50.096  INFO 20596 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    27187 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    530915 nanoseconds spent preparing 1 JDBC statements;
+    1207510 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
